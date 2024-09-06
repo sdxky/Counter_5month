@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity(), CounterContract {
 
         binding.apply {
             btnIncrement.setOnClickListener {
-                presenter.onIcrement()
+                presenter.onIncrement()
             }
             btnDecrement.setOnClickListener {
                 presenter.onDecrement()

@@ -11,7 +11,7 @@ class MainPresenter {
 
     }
 
-    fun onIcrement(){
+    fun onIncrement(){
         model.increment()
         checkConditions()
         contract?.showResult(model.count)
